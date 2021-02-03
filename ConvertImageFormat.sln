@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertImageFormat", "ConvertImageFormat.csproj", "{A412B555-966B-4D4E-A259-C563004D88F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A412B555-966B-4D4E-A259-C563004D88F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A412B555-966B-4D4E-A259-C563004D88F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A412B555-966B-4D4E-A259-C563004D88F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A412B555-966B-4D4E-A259-C563004D88F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D64EE329-90E2-4D1B-8C77-E1A39577E22F}
+	EndGlobalSection
+EndGlobal
