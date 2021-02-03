@@ -20,7 +20,7 @@ namespace ConvertImageFormat
                 {
                     string imageName = image.FileName;
                     Console.WriteLine(Path.GetExtension(imageName).ToLower());
-                    if (Path.GetExtension(imageName).ToLower() == ".jpg") // TODO: jpeg, etc.
+                    if (new List<string>(){ ".jpg", ".jpeg" }.Contains(Path.GetExtension(imageName).ToLower()))
                         continue;
 
                     string imageJpgName = Path.ChangeExtension(imageName, "jpg");
